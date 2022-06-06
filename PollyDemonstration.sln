@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyDemonstration.Api", "PollyDemonstration.Api\PollyDemonstration.Api.csproj", "{CB1247C5-C0B7-4F0E-A682-A8EC22555658}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "PollyDemonstration.Api\WebApi.csproj", "{CB1247C5-C0B7-4F0E-A682-A8EC22555658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyDemonstration.Application", "PollyDemonstration.Application\PollyDemonstration.Application.csproj", "{66CCF063-090B-407E-A1FF-6436F81E1A2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "PollyDemonstration.Application\Application.csproj", "{66CCF063-090B-407E-A1FF-6436F81E1A2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{37E37566-0FA3-436B-A6E1-E6C228BB321F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{405B437E-FED8-4FDF-B90D-D255B95539C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{628DC432-305B-4628-ABFA-E5D94ABDD057}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +30,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB1247C5-C0B7-4F0E-A682-A8EC22555658} = {37E37566-0FA3-436B-A6E1-E6C228BB321F}
+		{66CCF063-090B-407E-A1FF-6436F81E1A2D} = {37E37566-0FA3-436B-A6E1-E6C228BB321F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FF102BC0-C993-4723-B673-98A93495E5EB}
